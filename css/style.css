@@ -258,6 +258,7 @@ header {
   }
 }
 
+/* background: url(../img/trunk.JPG) no-repeat center bottom fixed; */
 .title {
   background: url(../img/trunk.JPG) no-repeat center center fixed;
   background-size: cover;
@@ -268,6 +269,13 @@ header {
   color: white;
   padding: 1em 5em;
 }
+
+@media only screen and (max-width: 600px) {
+  .title {
+    background: url(../img/trunk.JPG) no-repeat center bottom fixed;
+  }
+}
+
 
 /* filter: invert(99%) sepia(91%) saturate(0%) hue-rotate(197deg) brightness(108%) contrast(100%); */
 #title-icon {
@@ -294,18 +302,15 @@ color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 2fr;
     grid-template-rows: auto;
+    grid-gap: 1rem;
     background-color: black;
     color: white;
 }
 
-/*.bio > div {
+@media only screen and (max-width: 600px) {
+  .bio > div {
     overflow: hidden;
-    padding: 5px;
-}
-*/
-.white-overlay {
-   background-color: white;
-   opacity: 0.8;
+  }
 }
 
 
