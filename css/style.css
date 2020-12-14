@@ -302,14 +302,14 @@ color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 2fr;
     grid-template-rows: auto;
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     background-color: black;
     color: white;
 }
 
 @media only screen and (max-width: 600px) {
     .bio {
-        grid-gap: 2rem;
+        grid-gap: 3rem;
     }
 
   .bio > div {
