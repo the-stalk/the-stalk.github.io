@@ -264,7 +264,7 @@ header {
   position: relative;
 }
 
-.content .content-overlay {
+.content .content-overlay-glitter {
   background-image: url(../img/glitter2.gif);
   background-size: cover;
   position: absolute;
@@ -281,7 +281,28 @@ header {
   transition: all 0.4s ease-in-out 0s;
 }
 
-.content:hover .content-overlay{
+.content:hover .content-overlay-glitter {
+  opacity: 0.15;
+}
+
+.content .content-overlay-water {
+  background-image: url(../img/water.gif);
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.content:hover .content-overlay-water {
   opacity: 0.15;
 }
 
