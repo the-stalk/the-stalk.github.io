@@ -322,15 +322,13 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   height: 100vh;
-  width: 100%;
   color: white;
   padding: 1em 2em;
 }
 
 @media only screen and (max-width: 600px) {
   .title {
-    background-image: url(../img/trunk-crop.jpg);
-    background-size: cover;
+    background: url(../img/trunk-crop.jpg) no-repeat center center;
   }
 }
 
