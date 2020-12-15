@@ -272,7 +272,7 @@ header {
 
 @media only screen and (max-width: 600px) {
   .title {
-    background: url(../img/trunk-mobile.JPG) no-repeat center bottom fixed;
+    background: url(../img/trunkmobile.JPG) no-repeat center bottom fixed;
   }
 }
 
