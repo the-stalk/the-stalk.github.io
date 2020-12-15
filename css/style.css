@@ -270,12 +270,12 @@ header {
   padding: 1em 2em;
 }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
   .title {
     background: url(../img/trunkmobile.JPG) no-repeat center bottom fixed;
   }
 }
-
+*/
 
 /* filter: invert(99%) sepia(91%) saturate(0%) hue-rotate(197deg) brightness(108%) contrast(100%); */
 #title-icon {
