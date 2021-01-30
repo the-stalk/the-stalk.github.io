@@ -335,9 +335,8 @@ header {
 
 /* title section */
 
-/* background: url(../img/trunk.JPG) no-repeat center bottom fixed; */
 .title {
-  background: url(../img/trunk.JPG) no-repeat center center fixed;
+  background: url(../img/trunk.jpeg) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -349,7 +348,7 @@ header {
 
 @media only screen and (max-width: 600px) {
   .title {
-    background: url(../img/trunk-crop.jpg) no-repeat center center;
+    background: url(../img/trunk-crop.jpeg) no-repeat center center;
   }
 }
 
@@ -662,7 +661,7 @@ header {
 /* feature section */
 
 .feature {
-    background: url(../img/splash.JPG) no-repeat center bottom;
+    background: url(../img/splash.jpeg) no-repeat center bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
