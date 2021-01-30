@@ -458,7 +458,10 @@ header {
 @media only screen and (max-width: 600px) {
     .header {
         grid-template-columns: 1fr;
-        grid-gap: 3rem;
+    }
+
+    .header > div {
+        overflow: hidden;
     }
 
     #header-title {
@@ -476,19 +479,20 @@ header {
         text-align: center;
     }
 
-    #header-image-promo img {
+/*    #header-image-promo img {
         max-width: 200px;
 
-    }
+    }*/
 
     #header-text-promo {
-        grid-row: 2;
-        grid-column: 1;
+        display: none;
+        /*grid-row: 2;
+        grid-column: 1;*/
     }
 
-    #header-text-promo img {
+   /* #header-text-promo img {
         max-width: 100%;
-    }
+    }*/
 }
 
 /*@keyframes wave {
