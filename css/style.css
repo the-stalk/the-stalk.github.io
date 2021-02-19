@@ -539,8 +539,11 @@ h3 { font-size: var(--fs-h3) }
     /*height: 100vh;*/
     margin: 0;
     padding: 0;
-    background-color: #7a8f82;
-    color: white;
+    /*background-color: #7a8f82;*/
+    background-image: url(../img/water-background2.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: black;
 
     display: grid;
     grid-template-columns: 1fr;
@@ -565,10 +568,12 @@ h3 { font-size: var(--fs-h3) }
 /*#ab83a2*/
 /*#a3b9a8*/
 /*#6b8b70*/
+/*#c1dcc7*/
+/*#57535e*/
 .footer a {
     text-decoration: none;
     font-weight: bold;
-    color: #c1dcc7;
+    color: #57535e;
 }
 .footer a:hover {
     opacity: 0.7;
@@ -593,16 +598,18 @@ h3 { font-size: var(--fs-h3) }
     grid-column: 1;
     text-align: justify;
     align-self: center;
-    color: white;
+    color: black;
     padding: 10px;
-    background-image: url(../img/rain-forest-floor.gif);
+    background-image: url(../img/cloud-background.jpeg);
     background-size: cover;
-    background-position: 0% 90%;
+    background-position: top;
     opacity: 0.9;
 }
 
+/*#d8a2bd
+#ab83a2*/
 .footer-panel a {
-    color: #d8a2bd;
+    color: #ab83a2;
 }
 
 .footer-video {
@@ -646,9 +653,9 @@ h3 { font-size: var(--fs-h3) }
         background-position: top;
     }
 
-    .footer-panel a {
+   /* .footer-panel a {
         color: #ffd5ea;
-    }
+    }*/
 
     .footer-bottom {
         margin: 1em;
