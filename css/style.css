@@ -336,6 +336,7 @@ h3 { font-size: var(--fs-h3) }
 @media only screen and (max-width: 600px) {
     .header {
         grid-template-columns: 1fr;
+        grid-template-rows: 1;
     }
 
     .header > div {
@@ -348,6 +349,11 @@ h3 { font-size: var(--fs-h3) }
         align-self: center;
         justify-self: center;
     }
+
+    .title-icon {
+      margin-top: 10em;
+    }
+
 
     #header-text-promo {
         display: none;
@@ -606,10 +612,17 @@ h3 { font-size: var(--fs-h3) }
     height: calc(100vw/1.77777778);
 }
 
+.footer-bottom {
+    display: none;
+}
 
 @media only screen and (max-width: 600px) {
     .footer > div {
         overflow: hidden;
+    }
+
+    .footer {
+        grid-gap: 0;
     }
 
     .footer-feature {
@@ -628,11 +641,23 @@ h3 { font-size: var(--fs-h3) }
     }
 
     .footer-panel {
-        padding: 2em;
+        margin: 3em 0;
+        padding: 1em;
+        background-position: top;
     }
 
     .footer-panel a {
         color: #ffd5ea;
+    }
+
+    .footer-bottom {
+        margin: 1em;
+        display: block;
+        grid-row: 4;
+        grid-column: 1;
+        text-align: center;
+        align-self: top;
+        font-size: 12px;
     }
 }
 
