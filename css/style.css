@@ -419,7 +419,7 @@ header {
 
 .wiggle {
   display: inline-block;
-  animation: wiggle 5s infinite;
+  animation: wiggle 2s infinite;
 }
 
 .wiggle:hover {
@@ -466,17 +466,19 @@ header {
     #header-title {
         grid-row: 1;
         grid-column: 1;
+        align-self: center;
+        justify-self: center;
     }
 
-    .title-icon {
+    /*.title-icon {
         margin: 1em auto 0 auto;
-    }
+    }*/
 
-    #header-image-promo {
+    /*#header-image-promo {
         grid-row: 3;
         grid-column: 1;
         text-align: center;
-    }
+    }*/
 
 /*    #header-image-promo img {
         max-width: 200px;
@@ -485,8 +487,6 @@ header {
 
     #header-text-promo {
         display: none;
-        /*grid-row: 2;
-        grid-column: 1;*/
     }
 
    /* #header-text-promo img {
@@ -524,11 +524,18 @@ header {
     color: white;
 }
 
+#biopromoimage {
+    grid-row: 1;
+    grid-column: 2;
+    z-index: 2;
+}
+
 #bioitem1 {
     grid-row: 1;
     grid-column: 3/span 3;
     z-index: 3;
     text-align: justify;
+    align-self: center;
 }
 
 #bioitem2 {
@@ -587,6 +594,12 @@ header {
     font-size: 14px;
 }
 
+#biovideo {
+    grid-row: 7;
+    grid-column: 2/span 3;
+    z-index: 1;
+}
+
 @media only screen and (max-width: 600px) {
     .bio {
         grid-gap: 3rem;
@@ -636,13 +649,18 @@ header {
         z-index: 2;
     }
 
-    #bioitem6 {
+    #biopromoimage {
         grid-row: 6;
         grid-column: 1/span 2;
     }
 
-    #bioitem7 {
+    #bioitem6 {
         grid-row: 7;
+        grid-column: 1/span 2;
+    }
+
+    #bioitem7 {
+        grid-row: 8;
         grid-column: 1/span 2;
     }
 
@@ -652,9 +670,14 @@ header {
     }
 
     #bioitem8 {
-        grid-row: 8;
+        grid-row: 9;
         grid-column: 1/span 2;
         font-size: 1em;
+    }
+
+    #biovideo {
+        grid-row: 10;
+        grid-column: 1/span 2;
     }
 }
 
