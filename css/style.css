@@ -656,6 +656,7 @@ h3 { font-size: var(--fs-h3) }
         grid-row: 4;
         grid-column: 1;
         text-align: center;
+        justify-self: center;
         align-self: top;
         font-size: 12px;
     }
