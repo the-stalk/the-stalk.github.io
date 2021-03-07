@@ -543,6 +543,7 @@ h3 { font-size: var(--fs-h3) }
     background-image: url(../img/water-background2.jpeg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     color: black;
 
     display: grid;
