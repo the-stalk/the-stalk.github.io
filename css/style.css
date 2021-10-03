@@ -287,7 +287,7 @@ h3 { font-size: var(--fs-h3) }
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: auto;
-    grid-gap: 3rem;
+    grid-gap: 1rem;
 }
 
 #header-project-title {
@@ -373,7 +373,6 @@ h3 { font-size: var(--fs-h3) }
 @media only screen and (max-width: 600px) {
     .header {
         grid-template-columns: 1fr;
-        grid-gap: 1em;
     }
 
     .header img {
@@ -392,6 +391,10 @@ h3 { font-size: var(--fs-h3) }
     #header-album-title {
         grid-row: 2;
         grid-column: 1;
+    }
+
+    .album-title-img {
+      width: 70%;
     }
 
     .header > div {
@@ -443,7 +446,6 @@ h3 { font-size: var(--fs-h3) }
 @media only screen and (max-width: 600px) {
     .links {
         grid-template-columns: 1fr;
-        grid-template-rows: 1;
     }
 
     #linkitem1 {
