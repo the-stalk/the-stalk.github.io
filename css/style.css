@@ -313,7 +313,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 #header-album-title a {
-  color: #a64557;
+  color: #bf6e7d;
 }
 
 .album-title-img {
@@ -414,8 +414,12 @@ h3 { font-size: var(--fs-h3) }
     color: white;
 }
 
-.links a {
+/*.links a {
   color: #fff5ee;
+}*/
+
+.links a {
+  color: #eed8dc;
 }
 
 #linkitem1 {
@@ -435,17 +439,24 @@ h3 { font-size: var(--fs-h3) }
 }
 
 #linkitem3 {
-  grid-row: 1;
-  grid-column: 2;
-  z-index: 1;
-  text-align: center;
-  align-self: center;
+    grid-row: 1;
+    grid-column: 2;
+    z-index: 1;
+    text-align: center;
+    align-self: center;
 }
 
+.link-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+}
 
 @media only screen and (max-width: 600px) {
     .links {
         grid-template-columns: 1fr;
+        padding-top: 2rem;
     }
 
     #linkitem1 {
@@ -492,7 +503,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .press a {
-  color: #fdf5e6;
+  color: #eedfd8;
 }
 /*#pressitem1 {
     grid-row: 1;
@@ -599,6 +610,10 @@ h3 { font-size: var(--fs-h3) }
 }
 
 @media only screen and (max-width: 600px) {
+    .press {
+      padding-top: 1rem;
+    }
+
     .bio {
         grid-gap: 3rem;
         grid-template-columns: 1fr 2fr;
