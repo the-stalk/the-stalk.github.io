@@ -159,7 +159,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .content .content-overlay-glitter {
-  background-image: url(../img/glitter2.gif);
+  background-image: url(../img/glitter.gif);
   background-size: cover;
   position: absolute;
   width: 100%;
@@ -266,7 +266,7 @@ h3 { font-size: var(--fs-h3) }
 /* Title */
 
 .title {
-  background: url(../img/votives.gif) no-repeat center center fixed;
+  background: url(../img/votives_smaller2.gif) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -278,7 +278,7 @@ h3 { font-size: var(--fs-h3) }
 
 @media only screen and (max-width: 600px) {
   .title {
-    background: url(../img/votives.gif) no-repeat center center;
+    background: url(../img/votives_smaller2.gif) no-repeat center center;
     background-size: cover;
   }
 }
@@ -373,11 +373,15 @@ h3 { font-size: var(--fs-h3) }
 @media only screen and (max-width: 600px) {
     .header {
         grid-template-columns: 1fr;
-        grid-template-rows: 1;
+        grid-gap: 1em;
     }
 
     .header img {
-      max-width: 100%;
+        max-width: 100%;
+    }
+
+    .header a {
+        margin-top: -10px;
     }
 
     #header-project-title {
@@ -393,23 +397,6 @@ h3 { font-size: var(--fs-h3) }
     .header > div {
         overflow: hidden;
     }
-
-    #header-title {
-        grid-row: 1;
-        grid-column: 1;
-        align-self: center;
-        justify-self: center;
-    }
-
-    .title-icon {
-      margin-top: 10em;
-    }
-
-
-    #header-text-promo {
-        display: none;
-    }
-
 }
 
 /* Links */
