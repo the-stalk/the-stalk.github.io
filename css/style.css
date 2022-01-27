@@ -507,6 +507,66 @@ h3 { font-size: var(--fs-h3) }
 }
 
 
+/* Interviews */
+
+.interviews {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+    background-color: black;
+    color: white;
+}
+
+.interviews a {
+  color: #dceed8;
+}
+
+#interview-portrait {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 1;
+    text-align: center;
+    align-self: center;
+}
+
+/*#interview-portrait img {
+    max-width: 400px;
+}*/
+
+#interview-links {
+    grid-row: 1;
+    grid-column: 2;
+    z-index: 1;
+    text-align: left;
+    align-self: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .interviews {
+        grid-template-columns: 1fr;
+        padding-top: 2rem;
+    }
+
+    #interview-portrait {
+        grid-row: 1;
+        grid-column: 1;
+        z-index: 1;
+        text-align: center;
+        align-self: center;
+    }
+
+    #interview-links {
+        grid-row: 2;
+        grid-column: 1;
+        z-index: 1;
+        text-align: center;
+        align-self: center;
+    }
+}
+
+
+
 /* Bio */
 
 .bio {
