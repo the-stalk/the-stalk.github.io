@@ -569,6 +569,16 @@ h3 { font-size: var(--fs-h3) }
 
 /* Bio */
 
+
+.mini-bio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+    background-color: black;
+    color: white;
+}
+
 .bio {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr 1fr 2fr;
