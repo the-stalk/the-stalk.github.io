@@ -263,6 +263,23 @@ h3 { font-size: var(--fs-h3) }
 
 /* Sections */
 
+.section-title {
+    font-style: italic;
+    font-weight: 100;
+    opacity: 80%;
+    font-size: 80%;
+}
+
+.shows {
+    background: url(../img/lofi1.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+    color: white;
+    padding: 1em 2em;
+}
+
 /* Title */
 
 .title {
