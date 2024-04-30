@@ -547,13 +547,18 @@ h3 { font-size: var(--fs-h3) }
     .bio-name {
         grid-row: 1;
         grid-column: 1;
+        align-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        transform: rotate(-5deg);
     }
     .bio-image {
-        grid-row: 1;
+        grid-row: 2;
         grid-column: 1;
+        max-width: 100%;
     }
     .bio-text {
-        grid-row: 2;
+        grid-row: 3;
         grid-column: 1;
     }
     .album {
@@ -571,6 +576,7 @@ h3 { font-size: var(--fs-h3) }
     .album-image {
         grid-row: 2;
         grid-column: 1;
+        max-width: 100%;
     }
     .album-text {
         grid-row: 3;
@@ -591,6 +597,7 @@ h3 { font-size: var(--fs-h3) }
     .single-image {
         grid-row: 2;
         grid-column: 1;
+        max-width: 100%;
     }
     .single-text {
         grid-row: 3;
