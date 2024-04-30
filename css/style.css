@@ -270,6 +270,13 @@ h3 { font-size: var(--fs-h3) }
   padding: 1em 2em;
 }
 
+@media only screen and (max-width: 600px) {
+    .title {
+        background: url(../img/stalk/files2.gif) no-repeat center center;
+        background-size: cover;
+    }
+}
+
 /* Press */
 
 /*.press {*/
@@ -537,6 +544,7 @@ h3 { font-size: var(--fs-h3) }
 /*    color: white;*/
 /*    padding: 1em 2em;*/
 /*}*/
+
 
 @media only screen and (max-width: 800px) {
 
